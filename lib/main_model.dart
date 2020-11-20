@@ -4,6 +4,7 @@ import 'package:todo_app/todo.dart';
 
 class MainModel extends ChangeNotifier{
   List<Todo>todoList = [];
+  String newTodoText = '';
 
   //One-time Read
   Future getTodoList() async{
@@ -19,11 +20,21 @@ class MainModel extends ChangeNotifier{
     snapdhots.listen((snapdhot){
       final docs = snapdhot.docs;
       final todoList = docs.map((doc) => Todo(doc)).toList();
-      //ソート
-      todoList.sort((a, b) => a.createdAt.compareTo(b.createdAt));
+      //ソート(日付が新しい順)
+      todoList.sort((a, b) => b.createdAt.compareTo(a.createdAt));
 
       this.todoList = todoList;
       notifyListeners();
+    });
+  }
+
+
+  Future add() async{
+    //Firestoreの'todoList'に保存する
+    final collection = FirebaseFirestore.instance.collection('todoList');
+    await collection.add({
+      'title': newTodoText,
+      'createdAt': Timestamp.now(), //現在時刻が入る
     });
   }
 }
