@@ -1,16 +1,13 @@
 # todo_app
 
-A new Flutter application.
+FlutterによるTodoアプリの制作。
+* 追加ボタンを押して画面遷移をする
+* Todo内容を入力してリストへ追加する（FireStoreへ保存する）
+* 削除したいものはチェックを入れて削除できる
 
-## Getting Started
+## イメージ
+![スクリーンショット 2020-11-21 3 16 36](https://user-images.githubusercontent.com/52473279/99836100-efa4ff00-2ba8-11eb-82e6-6c44cda01071.png)
+![画面収録-2020-11-21-3 18 11](https://user-images.githubusercontent.com/52473279/99836240-24b15180-2ba9-11eb-9b7e-a68adfa4321e.gif)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
