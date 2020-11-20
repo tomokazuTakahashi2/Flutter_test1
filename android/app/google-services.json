@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "850148914165",
+    "firebase_url": "https://todo-app-fe888.firebaseio.com",
+    "project_id": "todo-app-fe888",
+    "storage_bucket": "todo-app-fe888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850148914165:android:9785ceb9ac6960b593e6bc",
+        "android_client_info": {
+          "package_name": "tomokazu.takahashi.todo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850148914165-ca1tviaiqn5dfss49pk66kv30giijaga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5R6GhHcXrWrykbHm5GilkFxCi0q-iPyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850148914165-ca1tviaiqn5dfss49pk66kv30giijaga.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "850148914165-lu7nndu6atmia839ijhhlnukromvq8vr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tomokazu.takahashi.todoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

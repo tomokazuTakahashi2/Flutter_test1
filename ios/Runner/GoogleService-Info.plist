@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>850148914165-lu7nndu6atmia839ijhhlnukromvq8vr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.850148914165-lu7nndu6atmia839ijhhlnukromvq8vr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAM_NJ5SUW3_qcNlq2ot2oSMXWq7jCjffg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>850148914165</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tomokazu.takahashi.todoApp</string>
+	<key>PROJECT_ID</key>
+	<string>todo-app-fe888</string>
+	<key>STORAGE_BUCKET</key>
+	<string>todo-app-fe888.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:850148914165:ios:3243eb8ef9b5df0c93e6bc</string>
+	<key>DATABASE_URL</key>
+	<string>https://todo-app-fe888.firebaseio.com</string>
+</dict>
+</plist>
